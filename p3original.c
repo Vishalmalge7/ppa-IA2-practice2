@@ -3,7 +3,7 @@
 int input_number()
 {
   int num;
-  printf("Enter the number:\n");
+  printf("Enter a number = ");
   scanf("%d", &num);
   return num;
 }
@@ -13,7 +13,7 @@ int is_composite(int n)
   for (int i = 2; i <= n/2; i++)
   {
     if (n%i == 0)
-      return 1;
+  return 1;
   }
   return 0;
 }
